@@ -7,7 +7,13 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
+ul li{
+    list-style-type: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
 header,footer{
     background-color: gray;
     color: white;
@@ -20,5 +26,10 @@ header,footer{
     padding: 40px 0;
     h2{
         text-align: center;
+    }
+    .card{
+        padding: 10px;
+        background-color: #FDA165;
+        margin: 10px 0;
     }
 }
